@@ -4,9 +4,13 @@ const path = require("path");
 console.log(path.basename(__filename));
 
 // dirname - nome do diretorio(dir)
-console.log(path.dirname(__dirname));
+console.log(path.dirname(__filename));
 
 // extname - extensão do arquivo
 console.log(path.extname(__filename));
 
-// Criar objeto path
+// parse - criar objeto path com todos os dados(root, diretorio, base, extensão e nome)
+console.log(path.parse(__filename));
+
+// join - juntar caminhos de arquivos
+console.log(path.join(__dirname, "teste"));
