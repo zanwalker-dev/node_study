@@ -1,8 +1,9 @@
 const { Person } = require("./person");
 
-require("./modules/path");
+// exemplos de requires:
+// require("./modules/path");
 
 const person = new Person("André");
 
-// exemplo usando metodo da classe
+// exemplo usando metodo da classe:
 // console.log(person.sayMyName());
