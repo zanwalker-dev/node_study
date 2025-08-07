@@ -7,6 +7,9 @@ const { Person } = require("./person");
 // estudo de http sem expres:
 // require("./modules/http");
 
+// EXPRESS:
+require("./modules/express");
+
 const person = new Person("André");
 
 // exemplo usando metodo da classe:
